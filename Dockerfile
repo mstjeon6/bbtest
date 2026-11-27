@@ -40,7 +40,7 @@ RUN cd /app/weights \
 
 COPY run.sh /app/run.sh
 COPY app/sn85up /app/sn85up
-COPY app/weights/router_v1.pt /app/weights/router_v1.pt
+COPY app/weights/router_v2.pt /app/weights/router_v2.pt
 COPY tools/selftest.py /app/tools/selftest.py
 
 # TorchScript CLIP -> plain state dict of the visual tower (fast weights_only load at run time), then fail the BUILD,

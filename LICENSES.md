@@ -13,7 +13,7 @@ ships or downloads is listed below; every download is pinned by sha256 in the `D
 | Our four fine-tuned specialists (x2 / x4, screen / natural), fine-tuned from Real-ESRGAN | `x2_natural`, `x2_screen`, `x4_natural`, `x4_screen` `.safetensors`, sha256 in the `Dockerfile` | see `Dockerfile` | MIT (this repository); base weights BSD-3-Clause | `/app/weights/*.safetensors` |
 | OpenAI CLIP RN50 image encoder weights | `RN50.pt`, sha256 `afeb0e10f9e5a86da6080e35cf09123aca3b358a0c3e3b6c78a7b63bc04b6762` | https://github.com/openai/CLIP | MIT | `/app/weights/clip_rn50_visual.pt` (visual tower, converted at build time) |
 | CLIP model code (ModifiedResNet, AttentionPool2d, Bottleneck) | piq 0.8.0 `piq/feature_extractors/clip.py`, adapted from OpenAI CLIP | https://github.com/photosynthesis-team/piq | Apache-2.0 (piq); MIT (OpenAI CLIP) | `app/sn85up/clip_rn50.py` |
-| Content router `router_v1` (linear classifier on CLIP RN50 embeddings) | `app/weights/router_v1.pt` | this repository | MIT (this repository) | `/app/weights/router_v1.pt` |
+| Content router `router_v2` (linear classifier on CLIP RN50 embeddings) | `app/weights/router_v2.pt` | this repository | MIT (this repository) | `/app/weights/router_v2.pt` |
 
 ## Training data (all permit training for commercial use)
 
