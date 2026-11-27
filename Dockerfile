@@ -27,7 +27,7 @@ RUN mkdir -p /app/weights && cd /app/weights \
  && printf '%s\n' \
       "7ac9b2fb99cb3e303acd7a5fdaa960fec91f80606f43a3f7a06effa0fa60cd21  x2_natural.safetensors" \
       "a598be655a8c02f1acf2654421dda43c2cda2909f019a16bdf3dc18d2829c0d0  x2_screen.safetensors" \
-      "be11261d677c856435f627fa057d7e8b8d92ce9fe56fc549447f10d4e31a4b52  x4_natural.safetensors" \
+      "97cd97c736137faacc5db706464bc4d4145e38c81703bf3dd2dc070bee51a257  x4_natural.safetensors" \
       "5ae044ad6e8a422547ea48d465453dac2bff23872bad7081a6cb6b96fea73a8e  x4_screen.safetensors" \
     | sha256sum -c -
 
