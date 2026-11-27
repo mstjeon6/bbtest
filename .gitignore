@@ -1,0 +1,6 @@
+# weights are downloaded by the Dockerfile (sha256-pinned); local copies for testing only
+app/weights/*.safetensors
+app/weights/clip-RN50.pt
+app/weights/clip_rn50_visual.pt
+__pycache__/
+*.pyc
