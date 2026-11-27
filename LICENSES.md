@@ -25,6 +25,8 @@ ships or downloads is listed below; every download is pinned by sha256 in the `D
 | Netflix Open Content: Sol Levante | CC BY 4.0 | https://opencontent.netflix.com/ | natural specialists, router |
 | Netflix Open Content camera footage: Chimera, El Fuente, Meridian, Sparks, Nocturne | CC BY 4.0 | https://opencontent.netflix.com/ | router |
 | SVT Open Content camera footage | CC BY 4.0 | https://svt.github.io/en/content/ | router |
+| A second set built with the same dataset code and a different seed: procedural Blender scenes and synthetic screen recordings | CC0-1.0 (our own renders) | own work | router |
+| A second set of Wan 2.2 generations upscaled with SeedVR2, made the same way as the row below | Apache-2.0 | own generations (Wan 2.2, SeedVR2) | router |
 | Wan 2.2 generations (FastVideo/Wan2.2-Syn), upscaled to 1080p with SeedVR2 (Apache-2.0) as references | Apache-2.0 | https://huggingface.co/datasets/FastVideo/Wan2.2-Syn-121x704x1280_32k, https://github.com/ByteDance-Seed/SeedVR | natural specialists, router |
 | VidAIO practice pack 006, items p02 and p03 (CC0 Blender renders, training allowed) | CC0-1.0 | https://github.com/vidAio-subnet/miner-vidaio/releases | x2 natural specialist |
 
